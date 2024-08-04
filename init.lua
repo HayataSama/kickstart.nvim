@@ -160,6 +160,10 @@ vim.opt.scrolloff = 10
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+-- My keymaps
+vim.keymap.set('n', '<F7>', ':tabp<CR>')
+vim.keymap.set('n', '<F8>', ':tabn<CR>')
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
